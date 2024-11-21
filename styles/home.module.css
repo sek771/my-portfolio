@@ -1,0 +1,45 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.profileImage {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin: 0;
+}
+
+/* :global(a) {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+:global(a:hover) {
+  text-decoration: underline;
+} */
